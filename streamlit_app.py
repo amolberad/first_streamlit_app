@@ -54,4 +54,4 @@ streamlit.write('The user entered ', add_my_fruit)
 
 
 # this will not work lets try
-my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('kiwi')")
+my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')")
