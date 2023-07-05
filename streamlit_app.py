@@ -34,7 +34,7 @@ else:
     fruitvice_normalized=panda.json_normalize(fruitvice_response.json())
     streamlit.write(fruitvice_normalized)
 
-exit URLError as e:
+except URLError as e:
 streamlit.error()
 
 #import requests
